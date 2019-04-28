@@ -224,3 +224,42 @@ ui bootstrap tweaks
 }
 
 /* jhipster-needle-scss-add-main JHipster will add new css style */
+
+/* ==========================================================================
+style for product
+========================================================================== */
+
+.cardBody{
+    color: #7a7a7a;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.cardBody:hover{
+    text-decoration: none;
+    color: #7a7a7a;
+}
+
+.price{
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0%;
+}
+
+.flag{
+    display: block;
+    position: absolute;
+    color: #fff;
+    margin-top: 20px;
+    height: 10px;
+    width: 60px;
+    background: #2fb5d2;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 2px 2px 4px 0 rgba(0,0,0,.2);
+}
